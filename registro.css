@@ -1,0 +1,21 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+body
+{
+    margin: 20px;
+    background-color: #fdf2d6;
+    font-family: verdana;
+}
+
+#selectmun
+{
+    display: none;
+}
