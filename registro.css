@@ -11,8 +11,10 @@ label {
 body
 {
     margin: 20px;
-    background-color: #fdf2d6;
-    font-family: verdana;
+    background: #fdc830; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdc830, #f37335); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdc830, #f37335);
+    font-family: 'Arial Narrow Bold';
 }
 
 #selectmun
