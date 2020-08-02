@@ -10,14 +10,26 @@ label {
 
 body
 {
-    margin: 20px;
     background: #fdc830; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fdc830, #f37335); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fdc830, #f37335);
-    font-family: 'Arial Narrow Bold';
 }
+
 
 #selectmun
 {
     display: none;
+}
+
+form{
+    margin: 20px;
+    font-family: Verdana, 'Geneva', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+.bg-dark{
+    opacity: 0.93;
 }
